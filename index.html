@@ -7,209 +7,173 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
             margin: 0;
-            padding: 0;
-        }
-        .container {
-            width: 90%;
-            max-width: 1000px;
-            margin: auto;
             padding: 20px;
         }
-        .profile {
+
+        .container {
+            max-width: 800px;
             background-color: #fff;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
         }
-        .profile h2 {
-            margin: 0;
-            color: #007BFF;
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
         }
-        .profile p {
-            margin: 5px 0;
+
+        .profile {
+            border-bottom: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
         }
+
+        .profile:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
         .links a {
-            color: #007BFF;
+            display: inline-block;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
             text-decoration: none;
-            margin-right: 10px;
         }
-        .links a:hover {
-            text-decoration: underline;
+
+        .facebook {
+            background-color: #1877f2;
+        }
+
+        .linkedin {
+            background-color: #0077b5;
+        }
+
+        .instagram {
+            background-color: #e1306c;
+        }
+
+        .twitter {
+            background-color: #1da1f2;
+        }
+
+        .behance {
+            background-color: #0057ff;
+        }
+
+        .tiktok {
+            background-color: #000000;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>نيتوورك مجتمع حوامة</h1>
 
-        <!-- Rimaz Abdulmoniem -->
-        <div class="profile">
-            <h2>ريماز عبدالمنعم - جرافيك ديزاين و نشر</h2>
-            <div class="links">
-                <a href="https://www.facebook.com/rimaz.abdulmoniem?mibextid=ZbWKwL" target="_blank">Facebook</a>
-            </div>
-        </div>
+<div class="container">
+    <h1>نيتوورك مجتمع حوامة</h1>
 
-        <!-- Douaa Elhassan -->
-        <div class="profile">
-            <h2>دعاء الحسن - كتابة و تصوير</h2>
-            <div class="links">
-                <a href="https://www.facebook.com/douaa.abdullah77?mibextid=ZbWKwL" target="_blank">Facebook</a>
-                <a href="https://www.linkedin.com/in/douaa-elhassan-61a53a305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
-            </div>
-        </div>
-
-        <!-- Abubaker Alhafyan -->
-        <div class="profile">
-            <h2>ابوبكر الحفيان (جين) - مونتاج و كتابة</h2>
-            <div class="links">
-                <a href="https://www.linkedin.com/in/abubaker-alhafyan-5a007231a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
-            </div>
-        </div>
-
-        <!-- Abdulrhman Khalid -->
-        <div class="profile">
-            <h2>عبدالرحمن خالد - جرافيك ديزاينر</h2>
-            <div class="links">
-                <a href="https://www.linkedin.com/in/abdulrhman-khalid" target="_blank">LinkedIn</a>
-                <a href="https://www.facebook.com/Abdualrhman.Khalid2" target="_blank">Facebook</a>
-            </div>
-        </div>
-
-        <!-- Hassan Kamal -->
-        <div class="profile">
-            <h2>حسن كمال - مونتاج و جرافيك ديزاين</h2>
-            <div class="links">
-                <a href="https://www.facebook.com/hasskamal1?mibextid=LQQJ4d" target="_blank">Facebook</a>
-                <a href="https://x.com/1hkzx?s=21" target="_blank">X (Twitter)</a>
-                <a href="https://www.linkedin.com/in/hassan-awadallah-28230421b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a>
-                <a href="https://www.instagram.com/1hkzx/profilecard/?igsh=YWdhNmJ1cGRrNjF3" target="_blank">Instagram</a>
-            </div>
-        </div>
-
-        <!-- Ali Altom -->
-        <div class="profile">
-            <h2>علي عبدالوهاب - كتابة و بحث</h2>
-            <div class="links">
-                <a href="https://www.facebook.com/alialttom?mibextid=ZbWKwL" target="_blank">Facebook</a>
-            </div>
-        </div>
-
-        <!-- Yageen Alaa -->
-        <div class="profile">
-            <h2>يقين علاء - كتابة و تصميم</h2>
-            <div class="links">
-                <a href="https://www.facebook.com/yageen.alaa?mibextid=LQQJ4d" target="_blank">Facebook</a>
-                <a href="https://www.linkedin.com/in/yageen-alaa-ba9547288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a>
-            </div>
-        </div>
-
-        <!-- Tawasul Mohammed -->
-        <div class="profile">
-            <h2>توسل محمد - تدقيق لغوي</h2>
-            <div class="links">
-                <a href="https://www.linkedin.com/in/tawasul-mohammed-94b3691ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a>
-                <a href="https://www.instagram.com/tawasul_mohammed/profilecard/?igsh=MWF6cHN4N2RoZHhpNQ==" target="_blank">Instagram</a>
-            </div>
-        </div>
-
-        <!-- Kosay -->
-        <div class="profile">
-            <h2>قصي - جرافيك ديزاينر</h2>
-            <div class="links">
-                <a href="https://www.behance.net/hellokosay" target="_blank">Behance</a>
-                <a href="https://www.linkedin.com/in/hellokosay/" target="_blank">LinkedIn</a>
-                <a href="https://kosay.online" target="_blank">Website</a>
-            </div>
-        </div>
-
-        <!-- Ahmed Hafiz -->
-        <div class="profile">
-            <h2>احمد حافظ - مصور فوتوغرافي و مطور واجهات خلفية</h2>
-            <div class="links">
-                <a href="https://www.instagram.com/invites/contact/?i=1hrkifqw2btx2&utm_content=4f9bqxw" target="_blank">Instagram</a>
-                <a href="https://www.linkedin.com/in/ahmed-hafiz-638b22214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
-            </div>
-        </div>
-
-        <!-- Marmer Mohammed -->
-        <div class="profile">
-            <h2>مرمر محمد - كتابة و تدقيق</h2>
-            <div class="links">
-                <a href="https://www.facebook.com/marmer.mohammed2" target="_blank">Facebook</a>
-                <a href="https://www.linkedin.com/in/marmer-mohammed-970b81328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
-            </div>
-        </div>
-
-        <!-- Mohammed Almaki -->
-        <div class="profile">
-            <h2>محمد المكي - كتابة و تدقيق</h2>
-            <div class="links">
-                <a href="https://www.linkedin.com/in/mohammed-almaki?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
-                <a href="https://www.facebook.com/share/R9Hn2hs4GKTMN7b8/" target="_blank">Facebook</a>
-            </div>
-        </div>
-
-        <!-- Lubna Ahmed Hussein -->
-        <div class="profile">
-            <h2>لبنى احمد - دراسة مشاريع</h2>
-            <div class="links">
-                <a href="https://www.linkedin.com/in/lubna-ahmed-hussein-07a1b3257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
-                <a href="https://www.instagram.com/lubnaahmedhussein/?utm_source=qr&r=nametag" target="_blank">Instagram</a>
-                <a href="https://www.facebook.com/share/fupj5bCxFfLq6Wzd/" target="_blank">Facebook</a>
-            </div>
-        </div>
-
-        <!-- Tagwa Abbas -->
-        <div class="profile">
-            <h2>تقوى عباس - إدارة محتوى</h2>
-            <div class="links">
-                <a href="https://www.facebook.com/tagwa.abbas.1" target="_blank">Facebook</a>
-                <a href="https://www.linkedin.com/in/tagwa-abbas" target="_blank">LinkedIn</a>
-            </div>
-        </div>
-
-        <!-- Areej Mohammed -->
-        <div class="profile">
-            <h2>أريج محمد - تصميم صفحات ويب</h2>
-            <div class="links">
-                <a href="https://www.linkedin.com/in/areej-mohammed" target="_blank">LinkedIn</a>
-                <a href="https://www.facebook.com/areej.mohammed" target="_blank">Facebook</a>
-            </div>
-        </div>
-
-        <!-- Manal Osman -->
-        <div class="profile">
-            <h2>منال عثمان - تصميم صفحات ويب و برمجة</h2>
-            <div class="links">
-                <a href="https://www.facebook.com/manal.osman" target="_blank">Facebook</a>
-                <a href="https://www.linkedin.com/in/manal-osman" target="_blank">LinkedIn</a>
-            </div>
-        </div>
-
-        <!-- Samar Altayeb -->
-        <div class="profile">
-            <h2>سمر الطيب - تطوير تطبيقات الهاتف</h2>
-            <div class="links">
-                <a href="https://www.facebook.com/samar.altayeb" target="_blank">Facebook</a>
-                <a href="https://www.linkedin.com/in/samar-altayeb" target="_blank">LinkedIn</a>
-                <a href="https://www.instagram.com/samar.altayeb" target="_blank">Instagram</a>
-            </div>
-        </div>
-
-        <!-- Mustafa Omer -->
-        <div class="profile">
-            <h2>مصطفى عمر - خبير أمن سيبراني</h2>
-            <div class="links">
-                <a href="https://www.facebook.com/mustafa.omer" target="_blank">Facebook</a>
-                <a href="https://www.linkedin.com/in/mustafa-omer" target="_blank">LinkedIn</a>
-            </div>
+    <!-- مرمر محمد -->
+    <div class="profile">
+        <h2>مرمر محمد - كتابة و تدقيق</h2>
+        <div class="links">
+            <a href="https://www.facebook.com/marmer.mohammed2" target="_blank" class="facebook">Facebook</a>
+            <a href="https://www.linkedin.com/in/marmer-mohammed-970b81328" target="_blank" class="linkedin">LinkedIn</a>
         </div>
     </div>
+
+    <!-- محمد المكي -->
+    <div class="profile">
+        <h2>محمد المكي - كتابة و تدقيق</h2>
+        <div class="links">
+            <a href="https://www.facebook.com/share/R9Hn2hs4GKTMN7b8/" target="_blank" class="facebook">Facebook</a>
+            <a href="https://www.linkedin.com/in/mohammed-almaki" target="_blank" class="linkedin">LinkedIn</a>
+        </div>
+    </div>
+
+    <!-- لبنى احمد -->
+    <div class="profile">
+        <h2>لبنى احمد - دراسة مشاريع</h2>
+        <div class="links">
+            <a href="https://www.facebook.com/share/fupj5bCxFfLq6Wzd/" target="_blank" class="facebook">Facebook</a>
+            <a href="https://www.linkedin.com/in/lubna-ahmed-hussein-07a1b3257" target="_blank" class="linkedin">LinkedIn</a>
+            <a href="https://www.instagram.com/lubnaahmedhussein" target="_blank" class="instagram">Instagram</a>
+        </div>
+    </div>
+
+    <!-- تقوى عباس -->
+    <div class="profile">
+        <h2>تقوى عباس - دراسة مشاريع</h2>
+        <div class="links">
+            <a href="https://www.facebook.com/arch.tagwaabbas/" target="_blank" class="facebook">Facebook</a>
+            <a href="https://www.linkedin.com/in/tagwa-abbas-85897a4a" target="_blank" class="linkedin">LinkedIn</a>
+            <a href="https://www.instagram.com/arch.tagwaabbas/" target="_blank" class="instagram">Instagram</a>
+            <a href="https://www.tiktok.com/@arch.tagwaabbas" target="_blank" class="tiktok">TikTok</a>
+        </div>
+    </div>
+
+    <!-- محمد حمدان -->
+    <div class="profile">
+        <h2>محمد حمدان - حوام ميداني</h2>
+        <div class="links">
+            <a href="https://www.facebook.com/profile.php?id=100001983177694&mibextid=ZbWKwL" target="_blank" class="facebook">Facebook</a>
+        </div>
+    </div>
+
+    <!-- مهاد عماد -->
+    <div class="profile">
+        <h2>مهاد عماد - تصميم ومونتاج</h2>
+        <div class="links">
+            <a href="https://www.facebook.com/mihad.imad?mibextid=rS40aB7S9Ucbxw6v" target="_blank" class="facebook">Facebook</a>
+        </div>
+    </div>
+
+    <!-- ايثار خليل -->
+    <div class="profile">
+        <h2>ايثار خليل (اينو) - حوام ميداني</h2>
+        <div class="links">
+            <a href="https://www.instagram.com/einoooy" target="_blank" class="instagram">Instagram</a>
+            <a href="https://www.facebook.com/einoooy?mibextid=ZbWKwL" target="_blank" class="facebook">Facebook</a>
+        </div>
+    </div>
+
+    <!-- عثمان دراس -->
+    <div class="profile">
+        <h2>عثمان دراس - جرافيك ديزاينر</h2>
+        <div class="links">
+            <a href="https://www.facebook.com/osman.drass.1?mibextid=ZbWKwL" target="_blank" class="facebook">Facebook</a>
+            <a href="https://www.linkedin.com/in/osman-drass-a389b3250" target="_blank" class="linkedin">LinkedIn</a>
+        </div>
+    </div>
+
+    <!-- ولاء أيوب مبارك -->
+    <div class="profile">
+        <h2>ولاء أيوب مبارك - كتابة وتدقيق</h2>
+        <div class="links">
+            <a href="https://www.facebook.com/profile.php?id=100016743423277" target="_blank" class="facebook">Facebook</a>
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>
